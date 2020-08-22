@@ -1,0 +1,917 @@
+/*header*/
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+/*background:
+liner-gradient(to right, rgba(0.0.0. .6), rgba(0.0.0. .6)),url()no-repeat center center
+backdround-size: cover;*/
+/*download*/
+
+/*Общая конфигурация*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 1400px;
+    height: 1009px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+/*=================================================header=========================================================*/
+.header {
+    font-size: 0px;
+    width: 100%;
+    height: 712px;
+    
+}
+
+.navbar {
+    font-size:0;
+    width: 100%;
+    height: 71px;
+    background-color: #000000;
+}
+
+.navbar__logo {
+    display: inline-block;
+    width: 50%;
+    height: 71px;
+}
+
+.navbar__axit {
+    width: 79px;
+    height: 27px;
+    margin: 21px 582px 0px 150px;
+}
+
+.navbar__list {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+    width: 50%;
+    height: 71px;
+    margin-top: 28px;
+}
+
+.navbar__item {
+    margin-right:46px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color:#FFFFFF;
+    opacity: 0.7;
+}
+
+/*=========================================================home========================*/
+
+.header__home {
+    text-align: left;
+    width: 100%;
+    height: 641px;
+    background:
+    linear-gradient(to right, rgba(0,0,0, .5), rgba(0,0,0, .5)),
+    url(../img/buildings.jpeg)no-repeat center center;
+    background-size: cover;
+}
+
+.header__main {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+
+.header__icon {
+    width: 175px;
+    height: 60px;
+    margin: 100px 0 16px 150px;
+}
+
+.header__title {
+    font-family: 'Raleway', sans-serif;
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 17px;
+    margin-left: 150px;
+}
+
+.header__line {
+    width: 74px;
+    height: 2px;
+    border: none;
+    background: #ffffff;
+    margin: 36px;
+    margin-left: 150px;
+}
+
+.header__text {
+    font-family: 'Raleway', sans-serif;
+    color:#FFFFFF;
+    font-weight: 300;
+    font-size: 16px;
+    opacity: 0.8;
+    margin-left: 150px;
+}
+
+.header__download {
+    margin: 59px 0 0 151px;
+}
+
+.header__link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border: 2px solid #FFFFFF;
+    background: transparent;
+    padding: 15px 32px 14px;
+    font-size: 15px;
+    color:#FFFFFF;
+}
+
+.header__link:hover {
+    background: white;
+	color: black;
+}
+
+.trial__form{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+}
+
+.header__form {
+    width: 360px;
+    height: 345px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    margin:139px auto 140px;    
+}
+
+.trial__title {
+    padding: 18px 56px 15px 52px;
+    text-align: center;
+    width: 360px;
+    height: 54px;
+    background-color:#F5F5F5;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:#333333;
+    margin-bottom: 29px;
+}
+b {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:#FF8B38
+}
+
+.trial__name {
+    margin-bottom: 30px;
+    margin-left: 45px;
+}
+
+.name__header {
+    padding:11px 233px 9px 14px;
+    width: 285px;
+    height: 31px;
+    border: none;
+    border-bottom:1px solid #BDBDBD;
+}
+
+.trial__mail {
+    margin-bottom: 30px;
+    margin-left: 45px;
+}
+
+.mail__header {
+    padding:10px 237px 9px 14px;
+    width: 285px;
+    height: 31px;
+    border: none;
+    border-bottom:1px solid #BDBDBD;
+}
+
+.trial__password {
+    margin-bottom: 49px;
+    margin-left: 45px;
+}
+
+.password__header {
+    padding:10px 210px 9px 14px;
+    width: 285px;
+    height: 31px;
+    border: none;
+    border-bottom:1px solid #BDBDBD;
+}
+
+.trial__button {
+    display: inline-block;
+    text-align: center;
+    margin-top:6px;
+    width: 360px;
+    height: 54px;
+    background:#FF9B51;
+    border-color:#FF9B51;
+    border-radius: 0 0 4px 4px;
+    padding: 18px 0;
+}
+
+.trial__link{
+    border-radius: 0 0 4px 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color:#FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+/*============================main================================*/
+
+.brand-bar {
+    width: 100%;
+    height: 106px;
+}
+
+.brand__header {
+    display: inline-block;
+    vertical-align: top;
+    padding: 23px 0 22px 152px;
+    width: 37%;
+    height: 106px;
+    text-align: left;
+}
+
+.brand__title {
+    font-size: 20px;
+    font-weight: 700;
+    color:#333333;
+}
+
+.brand__text {
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+}
+
+.brand-bar__list {
+    display: inline-block;
+    padding: 30px 148px 30px 40px;
+    width: 62%;
+    height: 106px;
+}
+
+.brand__item {
+    margin-right: 45px;
+}
+
+
+.main-society {
+    width: 46px;
+    height: 46px;
+}
+
+/*=======================================features================================*/
+
+.features {
+    display: inline-block;
+    width: 100%;
+    height: 596px;
+    background-color: #F5F5F5;
+}
+
+.tabs {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+    width: 350px;
+    height: 100%;
+    padding:148px 99px 114px 142px;
+}
+
+.tab__text {
+    font-size: 15px;
+    font-weight: 600;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    background: transparent;
+    text-align: center;
+    padding: 50px 35px;
+}
+
+.tab__head {
+    width: 112px;
+    height: 112px;
+    background-color: #FF8B38;
+    margin-bottom:1px;
+    border-radius: 4px 4px 0 0 ;
+}
+
+.tab__middle {
+    width: 112px;
+    height: 112px;
+    background-color: #333333;
+    margin-bottom: 1px;
+}
+
+.tab__bottom {
+    width: 112px;
+    height: 112px;
+    background-color: #333333;
+    border-radius:0 0 4px 4px ;
+}
+
+.features__info {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+    width: 470px;
+    height: 100%;
+}
+
+.description {
+    text-align: left;
+    padding: 156px 0 35px;
+}
+
+.features__title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 29px 0 25px;   
+}
+
+.features__text {
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+}
+
+.paragraph {
+    padding: 16px 0;
+}
+
+.feature__download {
+    display: inline-block;
+    font-size: 0;
+    text-align: center;
+    margin-top:6px;
+    width: 121px;
+    height: 46px;   
+    
+}
+
+.feature__link {
+    background:#FF9B51;
+    border-color:#FF9B51;
+    border-radius: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color:#FFFFFF;
+    padding: 16px 25px 17px;
+}
+
+.feature__link:hover {
+	background:#F5F5F5;
+	color: black;
+}
+.feature__image {
+    display: inline-block;
+    font-size: 0;
+    width: 570px;
+    height: 100%;
+    background:
+    url(../img/white-city.png) no-repeat center center;
+}
+
+.feature__picture {
+    width: 320px;
+    height: 253px;
+}
+
+
+/*========================================awesome===================================*/
+.awesome {
+    width: 100%;
+    height: 591px;
+}
+
+.awesome__header {
+    padding: 107px 0 40px;
+}
+
+.awesome__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.awesome__line {
+    width: 64px;
+    height: 2px;
+    background: #FF8B38;
+    margin: 30px auto;
+    border: none
+}
+
+.awesome__text {
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+}
+
+.awesome__cards {
+    padding: 40px 0 105px;
+    font-size: 0;
+}
+
+.card {
+    display: inline-block;
+    width: 350px;
+    margin: 0 16px;
+}
+
+.card__icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 2px solid #FF8B38;
+    border-radius: 50%;
+}
+.card__icon--lamp {
+    background: url(../img/icons/lamp.png) no-repeat center center;
+}
+
+.card__icon--keyboard {
+    background: url(../img/icons/keyboard.png) no-repeat center center;
+}
+
+.card__icon--lightning {
+    background: url(../img/icons/lightning.png) no-repeat center center;
+}
+
+.card__title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 29px 0 25px;
+}
+
+.card__text {
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+}
+
+/*===================================================Pricing===================================================*/
+
+.pricing {
+    width: 100%;
+    height: 884px;
+    background-color: #F5F5F5;
+    margin: 0;
+  }
+  .pricing__title {
+    font-family: "Raleway", sans-serif;
+    color:#212121;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 109px 0 0 0;
+  }
+  .pricing__line {
+    background-color: #FF8B38;
+    width: 64px;
+    height: 2px;
+    margin: 30px auto;
+    border: none;
+  }
+  .pricing__text {
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom:55px;
+  }
+  
+  .pricing__table {
+    display: inline-block;
+    margin-right:20px;
+  }
+  .table__package {
+    background-color: #333333;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    width: 343px;
+    height: 59px;
+    padding: 15px 0 0 0;
+    margin-bottom:1px;
+  }
+  .table__price {
+    font-family: "Raleway", sans-serif;
+    background-color: #333333;
+    color:#FFFFFF;
+    font-size: 35px;
+    font-weight: 700;
+    width: 343px;
+    height: 100px;
+    padding: 15px 0 0 0;
+    margin-bottom:1px;
+  }
+  .price__number {
+    font-family: "Raleway", sans-serif;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 70px;
+  }
+  .table__payment {
+    background-color: #333333;
+    color: #86878B;
+    font-size: 14px;
+    padding: 14px 0;
+    width: 343px;
+    height: 51px;
+    margin-bottom:1px;
+  }
+  .table__line {
+    height: 5px;
+    width: 343px;
+    background-color: #FF8B38;
+  }
+  .table__popular {
+    background-color: #FF8B38;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    width: 343px;
+    height: 40px;
+    margin: 0;
+  }
+  
+  .table__space {
+    background-color: #FFFFFF;
+    color: #86878B;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    width: 343px;
+    height: 40px;
+    margin-bottom:1px;
+  }
+  .table__bandwidth {
+    background-color: #FFFFFF;
+    color:#86878B;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    width: 343px;
+    height: 40px;
+    margin-bottom:1px;
+  }
+  .table__websites {
+    background-color:#FFFFFF;
+    color:#86878B;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    width: 343px;
+    height: 40px;
+    margin-bottom:1px;
+  }
+  .table__customizations {
+    background-color:#FFFFFF;
+    color: #86878B;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    width: 343px;
+    height: 40px;
+    margin-bottom:1px;
+  }
+  .table__integration {
+    background-color: #FFFFFF;
+    color: #86878B;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    width: 343px;
+    height: 40px;
+    margin-bottom:1px;
+  }
+  .table__supports {
+    background-color:#FFFFFF;
+    color: #86878B;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    width: 343px;
+    height: 40px;
+    margin-bottom:1px ;
+  }
+
+
+/*===================review===========================*/
+
+.review {
+    width: 100%;
+    height: 591px;
+}
+
+.review__header {
+    padding: 109px 0 25px;
+}
+
+.review__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase
+}
+
+.review__line {
+    width: 64px;
+    height: 2px;
+    background: #FF8B38;
+    margin: 30px auto;
+    border: none;
+}
+
+.review__text {
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+}
+
+.review__cards {
+    padding: 20px 0 101px;
+    font-size: 0;
+}
+
+.window {
+    display: inline-block;
+    text-align: left;
+    margin: 0 60px;
+}
+
+.icon__window {
+    width: 273px;
+    height: 147px;
+    background: url(../img/icons/Dialog__Window.png) no-repeat center center;
+}
+
+.icon__text {
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+    padding:20px 11px 20px 12px;
+}
+
+.person {
+    margin-top: 8px;
+    text-align: left ;
+    color: #86878B;
+}
+
+.icon__man {
+    display: inline-block;
+    font-size:0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background:url(../img/icons/icon-man.png);
+    width: 70px;
+    height: 70px;
+}
+
+.person__info {
+    display: inline-block;
+    vertical-align: top;
+    margin: 14px 0 23px 15px;
+}
+
+.person__name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    
+    color:#333333;
+}
+.person__prof {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+/*======================================download================================*/
+
+.download {
+    width: 100%;
+    height: 322px;
+    background:
+    linear-gradient(to right, rgba(0,0,0, .6), rgba(0,0,0, .6)),
+    url(../img/town.jpeg)no-repeat center center;
+    background-size: cover;
+}
+
+.download__title {
+    padding: 65px 0 0;
+    background: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.download__line {
+    width: 74px;
+    height: 2px;
+    background:white;
+    margin: 26px auto;
+    border: none;
+}
+
+.download__text {
+    margin: 23px 0 33px;
+    background: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    opacity: 0.8;
+    color: #86878B;
+}
+
+.download__link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border: 2px solid #FFFFFF;
+    background: transparent;
+    padding: 15px 33px 14px 31px;
+    font-size: 15px;
+    color: white;
+}
+
+.download__link:hover {
+	background: white;
+	color: black;
+}
+
+/*=============================================contact us==================================================*/
+.contact {
+    padding:54px 0 40px;
+    font-size:0;
+    width: 100%;
+    height: 613px;
+}
+
+.contact__header {
+    padding:54px 0 40px;
+}
+
+.contact__title {
+    font-family: 'Raleway', sans-serif;
+    color:#212121;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.contact__line {
+    width: 64px;
+    height: 2px;
+    border: none;
+    margin: 30px auto;
+    background: #FF8B38;
+}
+
+.contact__text {
+    margin:30px 0 0;
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+}
+.contact__form {
+    padding:40px 0 40px;
+    color: #BDBDBD;
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+}
+
+.contact__input {
+    display: inline-block;
+    margin: 0 40px 0 0;
+    width: 527px;
+    height: 153px;
+}
+
+.name__input {
+    padding: 11px 476px 9px 13px;
+    width: 527px;
+    height: 31px;
+    border:none;
+    border-bottom:1px solid #BDBDBD;
+    margin-bottom: 30px;
+}
+
+.mail__input {
+    padding: 10px 480px 9px 13px;
+    width: 527px;
+    height: 31px;
+    border:none;
+    border-bottom:1px solid #BDBDBD;
+    margin-bottom: 30px;
+}
+
+.subject__input {
+    padding: 10px 467px 6px 12px;
+    width: 527px;
+    height: 31px;
+    border:none;
+    border-bottom:1px solid #BDBDBD;
+}
+
+.contact__message {
+    display: inline-block;
+    vertical-align: bottom;
+    margin:0 0 0 40px;
+    width: 527px;
+    height: 153px;
+}
+
+.message__input {
+    padding: 10px 458px 6px 12px;
+    width: 527px;
+    height: 153px;
+    border:none;
+    border-bottom:1px solid #BDBDBD;
+}
+
+.contact__button {
+    padding:43px 0 0;
+}
+
+.contact__link {
+    margin-top:40px;
+    width: 148px;
+    height: 46px;
+    background:#f19554;
+    border-color:#f19554;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding:15px 22px 15px 24px;
+    color:#FFFFFF;
+}
+
+.contact__link:hover {
+	background: white;
+	color: black;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: 101px;
+    background-color: black;
+}
+.footer-society {
+    margin: 39px 11px 7px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer__text {
+    font-weight: 400;
+    font-size: 12px;
+    color:#FFFFFF;
+    opacity:0.5;
+}
