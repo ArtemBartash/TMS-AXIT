@@ -244,7 +244,7 @@ li {
 }
 
 /*============================main================================*/
-
+/*===================================Brand Bar===================================*/
 .brand-bar {
     width: 100%;
     height: 106px;
@@ -365,18 +365,14 @@ li {
     background: transparent;
 }
 
-.paragraph {
+.features__text--paragraph {
     padding: 16px 0;
 }
 
-.feature__download {
+.features__download {
     display: inline-block;
     font-size: 0;
-    text-align: center;
-    margin-top:6px;
-    width: 121px;
-    height: 46px;   
-    
+    margin-top:6px;   
 }
 
 .feature__link {
@@ -388,6 +384,7 @@ li {
     font-size: 15px;
     color:#FFFFFF;
     padding: 16px 25px 17px;
+    margin-right: 354px;
 }
 
 .feature__link:hover {
@@ -680,7 +677,7 @@ li {
 .icon__window {
     width: 273px;
     height: 147px;
-    background: url(../img/icons/Dialog__Window.png) no-repeat center center;
+    background: url(../img/icons/dialog-window.png) no-repeat center center;
 }
 
 .icon__text {
