@@ -272,8 +272,9 @@ li {
     background: transparent;
 }
 
-.brand-bar__list {
+.brand__list {
     display: inline-block;
+    vertical-align: top;
     padding: 30px 148px 30px 40px;
     width: 62%;
     height: 106px;
